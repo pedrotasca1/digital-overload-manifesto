@@ -32,6 +32,11 @@ body {
   margin: 0;
   background-color: var(--backgroundgreen);
   overflow-x: hidden;
+  width: 100vw;
+}
+
+html {
+  width: 100vw !important;
 }
 
 .home {
@@ -250,6 +255,8 @@ body {
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
   position: relative;
+  text-align: center;
+
 }
 
 .home .image-section {
@@ -257,6 +264,7 @@ body {
   object-fit: cover;
   position: relative;
   width: 401.68px;
+  margin-bottom: 80px;
 }
 
 .home .section-3 {
@@ -284,6 +292,7 @@ body {
   margin-top: -1.00px;
   position: relative;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .home .text-wrapper-2 {
@@ -297,7 +306,11 @@ body {
   line-height: var(--sub-title-line-height);
   position: relative;
   text-align: center;
+  /* margin-bottom: 0; */
+  width: 100vw;
+
 }
+
 
 .home .img {
   height: 222px;
