@@ -23,7 +23,7 @@ export const App = () => {
             </p>
 
             <p className="subtitle">
-              Technology isn’t the problem—how we design and engage with it is.
+              <b>Technology isn’t the problem</b>—how we design and engage with it is.
             </p>
 
             <div className="paragraph">
@@ -85,7 +85,7 @@ export const App = () => {
           <div className="section-3">
             <p className="title-3">We are at a turning point.</p>
 
-            <p className="text-wrapper-2">
+            <p className="text-wrapper-2 margin-0">
               This isn’t about rejecting technology—it’s about reshaping it.
             </p>
 
